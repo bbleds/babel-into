@@ -1,0 +1,22 @@
+{
+  "name": "babel-into",
+  "version": "1.0.0",
+  "description": "A simple intro to babel.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel testOne.js -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbleds/babel-into.git"
+  },
+  "author": "Benjamin Bledsoe <bledsoedesigns@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbleds/babel-into/issues"
+  },
+  "homepage": "https://github.com/bbleds/babel-into#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.5"
+  }
+}
