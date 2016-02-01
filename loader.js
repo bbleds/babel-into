@@ -1,2 +1,6 @@
+#!/usr/bin/env node
+
+"use strict";
+
 require("babel-register");
-require("testOne.js");
+require("./testOne.js");
